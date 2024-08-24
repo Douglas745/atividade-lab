@@ -1,0 +1,16 @@
+let Compras = ["pão", "leite", "ovos", "queijo", "frutas"];
+Compras.push("cafe");
+Compras.unshift("manteiga");
+console.log(Compras);
+let ultimo = Compras.pop();
+console.log(ultimo);
+let primeiro = Compras.shift();
+console.log(primeiro);
+
+Compras.splice(2,1, "chocolete");
+console.log(Compras)
+
+Compras.splice(3,4, "biscoito","suco");
+console.log(Compras);
+
+
